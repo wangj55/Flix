@@ -16,19 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="daW-cq-3TG">
-                                <rect key="frame" x="138" y="281" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="daW-cq-3TG">
+                                <rect key="frame" x="138" y="318.5" width="138" height="139"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Flix" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dj8-D0-Quw">
-                                <rect key="frame" x="159" y="450" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="70"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Flix" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dj8-D0-Quw">
+                                <rect key="frame" x="159.5" y="467.5" width="95" height="85.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="70"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dj8-D0-Quw" firstAttribute="top" secondItem="daW-cq-3TG" secondAttribute="bottom" constant="10" id="H5T-sr-wLD"/>
+                            <constraint firstItem="daW-cq-3TG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qhm-Cq-H1y"/>
+                            <constraint firstItem="dj8-D0-Quw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ysb-1a-EWH"/>
+                            <constraint firstItem="daW-cq-3TG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-60" id="paM-J0-DPJ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
