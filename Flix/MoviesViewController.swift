@@ -5,8 +5,8 @@
 //  Created by Ji Wang on 2/19/22.
 //
 
-import UIKit
 import AlamofireImage
+import UIKit
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet var tableView: UITableView!
