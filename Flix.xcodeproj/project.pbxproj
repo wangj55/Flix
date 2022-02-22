@@ -16,6 +16,7 @@
 		8C10DC8E27C1FCEA006AA71B /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10DC8D27C1FCEA006AA71B /* MoviesViewController.swift */; };
 		8C10DC9027C20865006AA71B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10DC8F27C20865006AA71B /* MovieCell.swift */; };
 		8C10DC9327C20DCC006AA71B /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8C10DC9227C20DCC006AA71B /* AlamofireImage */; };
+		8CCD629427C598C1006CFCFF /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD629327C598C1006CFCFF /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8C10DC8127C1803F006AA71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C10DC8D27C1FCEA006AA71B /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		8C10DC8F27C20865006AA71B /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		8CCD629327C598C1006CFCFF /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,6 @@
 				1C5F701A2B188200CE3DDBC1 /* Pods-Flix.debug.xcconfig */,
 				2B5C2947EDD46985DB8A726C /* Pods-Flix.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +86,7 @@
 				8C10DC8127C1803F006AA71B /* Info.plist */,
 				8C10DC8D27C1FCEA006AA71B /* MoviesViewController.swift */,
 				8C10DC8F27C20865006AA71B /* MovieCell.swift */,
+				8CCD629327C598C1006CFCFF /* MovieDetailViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -219,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C10DC7427C1803C006AA71B /* AppDelegate.swift in Sources */,
+				8CCD629427C598C1006CFCFF /* MovieDetailViewController.swift in Sources */,
 				8C10DC7627C1803C006AA71B /* SceneDelegate.swift in Sources */,
 				8C10DC9027C20865006AA71B /* MovieCell.swift in Sources */,
 				8C10DC8E27C1FCEA006AA71B /* MoviesViewController.swift in Sources */,
