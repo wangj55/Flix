@@ -12,6 +12,7 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var backdropView: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var releaseDateLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
     
     var movie: [String: Any]!
@@ -21,6 +22,9 @@ class MovieDetailViewController: UIViewController {
 
         titleLabel.text = movie["title"] as? String
         titleLabel.sizeToFit()
+        
+        releaseDateLabel.text = movie["release_date"] as? String
+        releaseDateLabel.sizeToFit()
         
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
