@@ -102,7 +102,7 @@
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqV-1w-faa">
-                                <rect key="frame" x="157" y="320" width="237" height="77"/>
+                                <rect key="frame" x="159" y="320" width="235" height="77"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -114,13 +114,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83R-0W-d4A">
-                                <rect key="frame" x="157" y="405" width="237" height="71"/>
+                                <rect key="frame" x="159" y="405" width="235" height="71"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hWb-Sf-85C">
                                 <rect key="frame" x="20" y="298" width="129" height="178"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="aoD-56-VEn"/>
+                                    <constraint firstAttribute="height" constant="178" id="mmo-mh-zfv"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eWT-kn-fPm"/>
@@ -136,9 +140,11 @@
                             <constraint firstItem="nBE-Iw-fk8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hWb-Sf-85C" secondAttribute="bottom" constant="10" id="Ojo-B9-MGD"/>
                             <constraint firstItem="nBE-Iw-fk8" firstAttribute="leading" secondItem="eWT-kn-fPm" secondAttribute="leading" constant="20" id="Vlk-rv-lqW"/>
                             <constraint firstItem="Cz1-6q-Dji" firstAttribute="trailing" secondItem="eWT-kn-fPm" secondAttribute="trailing" id="Yqj-P9-zuT"/>
+                            <constraint firstItem="eWT-kn-fPm" firstAttribute="trailing" secondItem="83R-0W-d4A" secondAttribute="trailing" constant="20" id="ggc-mU-Fmr"/>
                             <constraint firstItem="Cz1-6q-Dji" firstAttribute="leading" secondItem="eWT-kn-fPm" secondAttribute="leading" id="jIc-RK-n0Z"/>
                             <constraint firstItem="hWb-Sf-85C" firstAttribute="leading" secondItem="eWT-kn-fPm" secondAttribute="leading" constant="20" id="mgO-kd-mrY"/>
                             <constraint firstItem="eWT-kn-fPm" firstAttribute="trailing" secondItem="nBE-Iw-fk8" secondAttribute="trailing" constant="20" id="nJH-D1-7dH"/>
+                            <constraint firstItem="eWT-kn-fPm" firstAttribute="trailing" secondItem="MqV-1w-faa" secondAttribute="trailing" constant="20" id="nZR-hx-Cet"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NCs-mN-PEU"/>
