@@ -9,11 +9,12 @@ import AlamofireImage
 import UIKit
 
 class MovieDetailViewController: UIViewController {
-    @IBOutlet weak var backdropView: UIImageView!
-    @IBOutlet weak var posterView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var releaseDateLabel: UILabel!
-    @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet var backdropView: UIImageView!
+    @IBOutlet var posterView: UIImageView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var releaseDateLabel: UILabel!
+    @IBOutlet var playTrailerButton: UIButton!
+    @IBOutlet var synopsisLabel: UILabel!
     
     var movie: [String: Any]!
 
@@ -37,22 +38,17 @@ class MovieDetailViewController: UIViewController {
         posterView.layer.borderColor = UIColor.white.cgColor
         posterView.layer.borderWidth = 1
         
-        
         let backdropPath = movie["backdrop_path"] as! String
         let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
         
         backdropView.af.setImage(withURL: backdropUrl!)
     }
     
-
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        let trailerViewController = segue.destination as! TrailerViewController
+        trailerViewController.movie = movie
     }
-    */
-
 }

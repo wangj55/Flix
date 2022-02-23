@@ -19,6 +19,7 @@
 		8CCD629427C598C1006CFCFF /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD629327C598C1006CFCFF /* MovieDetailViewController.swift */; };
 		8CCD629627C5DFC4006CFCFF /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD629527C5DFC4006CFCFF /* MovieGridViewController.swift */; };
 		8CCD629827C5E27D006CFCFF /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD629727C5E27D006CFCFF /* MovieGridCell.swift */; };
+		8CCD629A27C621F9006CFCFF /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD629927C621F9006CFCFF /* TrailerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		8CCD629327C598C1006CFCFF /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		8CCD629527C5DFC4006CFCFF /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		8CCD629727C5E27D006CFCFF /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		8CCD629927C621F9006CFCFF /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				8CCD629327C598C1006CFCFF /* MovieDetailViewController.swift */,
 				8CCD629527C5DFC4006CFCFF /* MovieGridViewController.swift */,
 				8CCD629727C5E27D006CFCFF /* MovieGridCell.swift */,
+				8CCD629927C621F9006CFCFF /* TrailerViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCD629A27C621F9006CFCFF /* TrailerViewController.swift in Sources */,
 				8C10DC7427C1803C006AA71B /* AppDelegate.swift in Sources */,
 				8CCD629427C598C1006CFCFF /* MovieDetailViewController.swift in Sources */,
 				8C10DC7627C1803C006AA71B /* SceneDelegate.swift in Sources */,
