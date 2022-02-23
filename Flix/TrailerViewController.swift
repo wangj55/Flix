@@ -47,7 +47,7 @@ class TrailerViewController: UIViewController, WKUIDelegate {
         task.resume()
     }
 
-    /// Randomly choose a trailer if there are multiple trailers of given movie, otherwise choose the only trailer.
+    /// Randomly choose a trailer if there are multiple trailers of the given movie, otherwise choose the only trailer.
     /// - Returns: The key of chosen trailer.
     private func getTrailerKey(from trailers: [[String: Any]]) -> String {
         let index = Int.random(in: 0 ..< trailers.count)
